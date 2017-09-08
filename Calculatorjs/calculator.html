@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calulator</title>
+	<link rel="stylesheet" href="calculator.css"/>
+	 <script src="calculator.js"></script>
+	
+</head>
+<body>
+<div id="keys">
+<div id="screen">0</div> 
+<button onclick="clearscreen()">Clear</button> 
+<div>
+	<button onclick="clickdisplay(this)">7</button>
+	<button onclick="clickdisplay(this)">8</button>
+	<button onclick="clickdisplay(this)">9</button>
+	<button onclick="clickdisplay(this)">+</button>
+</div>
+
+<div>
+	<button onclick="clickdisplay(this)">4</button>
+	<button onclick="clickdisplay(this)">5</button>
+	<button onclick="clickdisplay(this)">6</button>
+	<button onclick="clickdisplay(this)" id="operator" >-</button>
+</div>
+<div>
+
+	<button onclick="clickdisplay(this)">1</button>
+	<button onclick="clickdisplay(this)">2</button>
+	<button onclick="clickdisplay(this)" >3</button>
+	<button onclick="clickdisplay(this)" id ="operator">*</button>
+	</div>
+<div>
+	<button onclick="clickdisplay(this)"> 0 </button>
+	<button onclick="clickdisplay(this)" id ="operator"> . </button>
+	<button onclick="clickdisplay(this)" id ="operator"> / </button>
+	<button onclick="evalu(this)">=</button>
+</div>
+
+
+
+</div>
+
+</body>
+</html>
